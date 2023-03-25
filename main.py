@@ -55,7 +55,7 @@ async def startprivate(client, message):
             ]
         ]
     )
-    welcomed = f"Hey <b>{message.from_user.first_name}</b>\nI'm a simple Telegram bot that can broadcast messages and media to the bot subscribers. Made by @Kalakar_Sangram .
+    welcomed = f"Hey <b>{message.from_user.first_name}</b>\nIm a simple Telegram bot that can broadcast messages and media to the bot subscribers. Made by @Kalakar_Sangram .
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
 
